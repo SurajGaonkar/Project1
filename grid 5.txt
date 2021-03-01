@@ -1,0 +1,71 @@
+.grid-Container5{
+    background-color: #3a3939;
+    color: white;
+    display:grid;
+    grid-template-areas: 
+    'a b c d'
+    'e e e e'
+    'f f f f';
+    /* overflow:auto; */
+    height:100%; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.grid5A{
+    border: 1px solid wheat;
+    width: 210px;
+    height: 100%;
+}
+.grid5Class{
+    border: 1px solid wheat;
+    width: 350px;
+    margin: auto;
+}
+#grid5A1{
+    grid-area: a;   
+    padding:10px 10px 10px 30px;
+    margin: 0px 0px 0px 30px;
+}
+#grid5A2{
+    grid-area: b;
+    padding:10px 0px 10px 30px;
+    margin: 0px 0px 0px 30px;
+}
+#grid5A3{
+    grid-area: c;
+    padding:30px 10px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 70%;
+}
+
+#grid5A4{
+    grid-area: d;
+    padding:10px 10px 10px 30px;
+}
+#horizontalLine{
+    grid-area: e;
+    margin: auto;
+    padding: 0px 20px;
+    width: 90%;
+    color: wheat;
+    margin: 0px;
+}
+/* #grid5A{
+    grid-area: f;
+    /* margin: 10px auto 50px auto; */
+    width: 400px;
+    height: 100px;
+    grid-area: f;
+    width: 210px;
+    padding:10px 30px 10px 30px;
+    text-align: center;
+} */
+.h3A5{
+    font-size: 20px;
+    font-weight:500;
+    padding:0px 0px 10px 0px;
+}
+.pA5{   
+    color: grey;
+}

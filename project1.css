@@ -1,0 +1,387 @@
+#container{
+    /* border: 3px double grey; */
+    /* border-style: none none double none;  */
+    overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+          
+}
+.item{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    color: grey;
+       
+}
+#home{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color:#39c08c;
+    color: blanchedalmond;
+}
+#home:hover{
+    border-radius: 20px;
+    background-color:#fc7a00;
+    transition-duration: 1s;
+}
+.item:hover{
+    background-color: #fc7a00;
+    color: lightgoldenrodyellow;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#les{
+    font-size: 20px bold;
+    padding: 10px;
+    float: left;
+    margin: 0 0 0 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#h1{
+    text-align: center; /* To align the text to the center */
+    color: grey;
+    font-size: 900;
+    font-weight: normal;
+}
+#div1{
+    width:500px;
+    /* border: 1px solid black; */
+    margin: 30px auto;
+    clear: both;
+
+}
+                                             /*Grid Box 1 Start*/
+
+.grid-container{
+    /* background-color: coral; */
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'a a b b'
+    'a a c d';
+    width: 85%;
+    height: 85vh;
+    margin: auto;
+    /* width:fit-content; */
+    /* overflow:auto;  */
+}
+.gridi{
+    background-color: wheat;
+    border: 1x solid black;
+    padding: 5px;
+    font-size: 10px;
+    color: #e4d8d8;
+    display: flex;          /*To keep text at the bottom */
+    align-items:flex-end;   /*To keep text at the bottom */
+    
+}
+#wwl{display: block;}
+#gridI1{
+    grid-area: a;
+    background-image: url("assets/image_2.jpg");
+    background-size:100% 100%;
+    
+}
+#gridI2{
+    grid-area: b;
+    background-image: url("assets/image_6.jpg");
+    background-size:100% 100%;
+    
+}
+#gridI3{
+    grid-area: c;
+    background-image: url("assets/image_3.jpg");
+    background-size:100% 100%;
+    /* background-image: linear-gradient(to right, #7c7b29, #441414); */
+}
+#gridI4{
+    grid-area: d;
+    background-image: url("assets/image_8.jpg");
+    background-size:100% 100%;
+    /* background-image: linear-gradient(#441515, grey);     */
+}
+                                              /*Grid Box 1 End*/
+
+                                             /*Grid Box 2 Start*/
+.flex-containerA{
+    display: grid;
+    grid-template-areas: 
+    'a a a'
+    'b c d'
+    'e f g';
+    padding: 10px 20px;
+    height: 600px;
+    width: 100%;
+    /* margin:auto; */
+    background: linear-gradient(to bottom left, #08b7ec 40%, #089e3a);
+    color: #fff;
+    transition: all 0.3s, ease;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+    grid-row-gap: 20px;
+    
+}
+.flexA{
+    /* border: 1px solid black; */
+    /* color: #e4d8d8; */
+    text-align: center; 
+   
+}
+.flexA i{
+    font-size: 50px;
+}
+#flexA1{
+    
+    grid-area: a;
+    font-size: 20px;
+    width: 550px;
+    margin: auto;
+    padding: 20px 0px;    
+}
+#oas{font-size: 30px;}
+.fD{font-size: 30px; 
+    font-weight:500;
+    margin: 5px;
+}
+.pA1{
+    padding: 0px 20px;
+    text-align:justify;}
+#flexA2{
+    grid-area: e;
+        
+}
+#flexA3{
+    grid-area: f;
+        
+}
+#flexA4{
+    grid-area: g;
+}
+#flexA5{
+    grid-area: b;
+        
+}
+#flexA6{
+    grid-area: c;
+            
+}
+#flexA7{
+    grid-area: d;
+}
+
+                                        /*Grid Box 2 End*/
+                                        /*Grid Box 3 Start */
+.grid-Container3{
+    background-color: honeydew;
+    display:grid;
+    overflow: auto;
+    grid-template-areas:
+    'a a a'
+    'b c d';
+    width: 90%;
+    height: 700px;
+    text-align: center;
+    color: #504a4a;
+    justify-content:center;
+    align-content:flex-start;
+    margin: auto;
+    grid-column-gap: 15px;
+}
+
+.grid3A{
+/* border: 1px solid black; */
+border-radius: 10px;
+}
+#grid3A1{
+    grid-area: a;
+    width: 450px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    transition-property: height;
+    transition-duration: 1s;
+}
+.h3A1{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.grid3A img{
+    display: block;
+    margin: 0px;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#grid3A2{
+    grid-area: b;
+    height: 450px;
+    width: 300px;
+    transition-property: height, background-color;
+    transition-duration: 1s;
+}
+#grid3A3{
+    grid-area: c;  
+    height: 450px;
+    width: 300px;
+    transition-property: height, background-color;
+    transition-duration: 1s;
+}
+#grid3A4{
+    grid-area: d;
+    height: 450px;
+    width: 300px;
+    transition-property: height, background-color;
+    transition-duration: 1s;
+}
+.btnRM{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 2px solid #146314cb;
+    padding: 12px;
+    font-size: 16px;
+    color:#146314cb;
+    margin:20px 0px 0px 0px;
+    width: 150px;
+    height: 50px; 
+    transition-property: width, height, background-color;
+    transition-duration: 1s;
+}
+#btnRM1:hover{
+    background-color: #69c44d;
+    color: lightgoldenrodyellow;
+    width: 200px;
+    height: 70px;
+}
+#grid3A1:hover{
+    height: 200px;
+}
+#grid3A2:hover{
+    background-color: #aeb885;
+    height: 470px;
+}
+#grid3A3:hover{
+    background-color: #aeb885;
+    height: 490px;
+}
+#grid3A4:hover{
+    background-color: #aeb885;
+    height: 470px;
+}
+                                                /* Grid Box 3 End */
+                                                /* Grid Box 4 Start */
+.grid-Container4{
+    display: grid;
+    grid-template-areas: 
+    'a a'
+    'b c';
+    overflow: auto;
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+    text-align: center;
+    color: #504a4a;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+}
+.grid4A{
+    /* border: 1px solid black; */
+    color: grey;
+}
+#grid4A1{
+    grid-area: a;
+    width: 550px;
+    height: 110px;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+#grid4A2{
+    background-image:linear-gradient(white, #d6caca);
+    grid-area: b;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    margin:0px; 
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+#grid4A3{
+    background-image:linear-gradient( white, #d6caca);
+    grid-area: c;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    margin:0px;
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+.c1{
+    color: #413d3d;
+}
+                                                /* Grid Box 4 End */
+                                                /* Grid Box 5 Start */
+.grid-Container5{
+    background-color: #2b2a2a;
+    color: grey;
+    display: grid;
+    grid-template-areas: 
+    'a b c d'
+    'e e e e'
+    'g f f h';
+    
+}
+.grid5A{
+    /* border: 1px solid wheat; */
+    width: auto;
+}
+#grid5A1{
+    grid-area: a;
+    margin-left: 80px;
+}
+#grid5A2{
+    grid-area: b;
+    padding: 0px 0px 0px 20px;
+}
+#grid5A3{
+    grid-area: c;
+    padding: 15px 0px 0px 0px;
+}
+#grid5A4{
+    grid-area: d;
+        
+}
+#horizontalLine{
+    grid-area: e;
+    padding: 0px 20px 0px 30px;
+    width: 90%;
+    
+}
+#grid5A5{
+    grid-area: f;
+    /* width: 50%; */
+    text-align: center;
+    justify-content: center;
+}
+.h3A5{
+    font-size: 20px;
+    font-weight:500;
+    padding:0px 0px 10px 0px;
+}
+.pA5{   
+    color: grey;
+}
+
+
+
+
+                                                
